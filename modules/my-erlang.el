@@ -6,7 +6,7 @@
 (package-require 'erlang)
 
 ;; Add Erlang to the path
-(add-to-list 'exec-path pigeon-erlang-bin)
+(add-to-list 'exec-path erlang-bin)
 
 ;; Activate EDTS (Erlang Development Tool Suite)
 ;; Ref: https://github.com/tjarvstrand/edts
@@ -16,7 +16,7 @@
 ;; Open documentation for erlang modules in a web browser
 ;; Original idea and code from @legoscia
 (defvar browse-erlang-doc-history nil)
-(defvar erlang-doc-root-dir pigeon-erlang-doc-root)
+(defvar erlang-doc-root-dir erlang-doc-root)
 (defun browse-erlang-doc (module)
   "Open documentation for erlang module MODULE in a web browser."
   (interactive
@@ -41,4 +41,4 @@
 (local-set-key (kbd "C-e d") 'browse-erlang-doc)
 
 ;; Provide feature
-(provide 'erlang)
+(provide 'my-erlang)

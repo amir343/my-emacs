@@ -9,7 +9,7 @@
                 general
                 ui
                 theme
-                erlang
+                my-erlang
                 my-ido
-                markdown)
+                markdown))
   (require file))
