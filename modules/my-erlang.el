@@ -40,5 +40,7 @@
   (browse-url-of-file module))
 (local-set-key (kbd "C-e d") 'browse-erlang-doc)
 
+(setq erlang-indent-level 2)
+
 ;; Provide feature
 (provide 'my-erlang)
