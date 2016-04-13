@@ -22,8 +22,8 @@
 (whitespace-mode 1)
 
 ;; Highlight current line
-(global-hl-line-mode t)
-(set-face-background hl-line-face "gray13")
+;(global-hl-line-mode t)
+;(set-face-background hl-line-face "gray13")
 
 ;; Save history between sessions
 (savehist-mode 1)
