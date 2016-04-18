@@ -2,8 +2,8 @@
 ;; Theme                                                              ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(package-require 'peacock-theme)
-(load-theme 'peacock t)
+(package-require 'moe-theme)
+(load-theme 'moe-dark t)
 
 ;; Provide feature
 (provide 'theme)
