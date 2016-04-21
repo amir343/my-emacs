@@ -11,5 +11,6 @@
                 theme
                 my-erlang
                 my-ido
+                my-multiple-cursors
                 markdown))
   (require file))

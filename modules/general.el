@@ -11,6 +11,9 @@
 ;; Set `tab-width` to two spaces
 (setq-default tab-width 2)
 
+;; Show column number
+(setq column-number-mode t)
+
 ;; Show trailing whitespaces
 (setq-default show-trailing-whitespace t)
 
