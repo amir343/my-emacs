@@ -12,5 +12,6 @@
                 my-erlang
                 my-ido
                 my-multiple-cursors
-                markdown))
+                markdown
+                org))
   (require file))
