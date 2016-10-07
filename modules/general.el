@@ -35,5 +35,10 @@
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program my-default-browser)
 
+;; Set Deft settings
+(setq deft-directory "/data/Dropbox/notes")
+(global-set-key (kbd "C-x C-g") 'deft-find-file)
+(global-set-key [f8] 'deft)
+
 ;; Provide feature
 (provide 'general)
