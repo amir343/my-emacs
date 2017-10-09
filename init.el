@@ -5,6 +5,8 @@
 
 (add-to-list 'load-path (concat root "modules"))
 
+(setq my-default-browser "open")
+
 (dolist (file '(my-packages
                 ui
                 theme
